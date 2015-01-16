@@ -1,1 +1,490 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('6b(66(p,a,c,k,e,d){e=66(c){65(c<a?\'\':e(6h(c/a)))+((c=c%a)>35?68.6d(c+29):c.6g(36))};69(!\'\'.67(/^/,68)){6a(c--){d[e(c)]=k[c]||e(c)}k=[66(e){65 d[e]}];e=66(){65\'\\\\w+\'};c=1};6a(c--){69(k[c]){p=p.67(6f 6c(\'\\\\b\'+e(c)+\'\\\\b\',\'g\'),k[c])}}65 p}(\'3B(3c(p,a,c,k,e,d){e=3c(c){3d(c<a?\\\'\\\':e(49(c/a)))+((c=c%a)>35?3j.4a(c+29):c.3h(36))};3e(!\\\'\\\'.3f(/^/,3j)){3i(c--){d[e(c)]=k[c]||e(c)}k=[3c(e){3d d[e]}];e=3c(){3d\\\'\\\\\\\\w+\\\'};c=1};3i(c--){3e(k[c]){p=p.3f(3g 4b(\\\'\\\\\\\\b\\\'+e(c)+\\\'\\\\\\\\b\\\',\\\'g\\\'),k[c])}}3d p}(\\\'7 T(){D d,a=2u.2v,b=1i 1s("2k","2h","3b","33 34","30","2j"),c=!0;1m(d=0;d<b.1F;d++)1y(a.2n(b[d])>0){c=!1;2i}1N c}!7(a){D c,d,e,f,k,l,m,n,o,g=2B,h=0,i=0,j=10;T()?(c=16,d=16):(c=a.2a>16?16:a.2a,d=a.2G),f=1i P.3a(c,d,P.2V,"2M-u"),k={1O:7(){f.2H.2S="#2Q",1D=f.8.B(9.p(c/2),9.p(d/2)-.1o*d,"载入中...",{C:"1q E F",K:"#I"}),1D.G.t(.5,.5),f.O.1a("W","1d/1f/W.19"),f.O.1a("R","1d/1f/R.19"),f.O.1a("M","1d/1f/M.19"),f.O.1a("z","1d/1f/z.19")},1b:7(){W=f.8.14(9.p(c/2),9.p(d/2),"W"),W.x-=W.1R/2,R=f.8.14(9.p(c/2),9.p(d/2)+4,"R"),R.x-=R.1R/2,f.O.2K(R),f.A.w("28")}},l={1O:7(){17=f.8.B(9.p(c/2),9.p(d/2)-.3*d,"贪食蛇",{C:"1q E F",K:"#I"}),17.G.t(.5,.5),17.U.t(0,0),f.8.Z(17.U).N({x:1,y:1},27,P.22.26.24).w();D a;a=T()?"按21键开始游戏":"点击屏幕开始游戏",S=f.8.B(9.p(c/2),9.p(d/2),a,{C:"2e E F",K:"#I"}),S.G.t(.5,.5),f.8.Z(S).N({18:0},X).N({18:1},X).1p().w(),6.1P=f.8.B(9.p(c/2),d-1w,"作者：2t",{C:"1e E F",K:"#I"}),6.1P.G.t(.5,.5)},1b:7(){6.1j=6.u.v.Q.V(P.2d.29),T()||f.v.1v.2c(o,6)},1u:7(){6.1j.L&&f.A.w("u")}},m={1b:7(){f.13.2s(P.2p.2q),6.Y=6.u.v.Q.2r(),6.J=[],6.M=f.8.2w(),6.1z(10,10),6.z=6.u.8.14(1r,1r,"z"),6.z.G.t(1,1),f.13.1t.1K(6.z),6.s=1,6.11=!1,e=0,h=0,i=0,6.q=f.2x.2D.1p(g,6.1L,6),6.2E=f.8.B(1c,d-1w,"分数：",{C:"1e E F",K:"#I"}),6.1W=f.8.B(2C,d-1w,"0",{C:"1e E F",K:"#I"}),6.1C=f.v.Q.V(2y)||f.v.Q.V(2z),6.1G=f.v.Q.V(2o)||f.v.Q.V(2F)},1u:7(){f.13.1t.2g(6.M,6.z,6.1Q,1x,6),6.1X(),6.1B(),6.M.1k(7(a){a.2f||6.1n()},6),6.1H(6.q.r)},1l:7(a){1N 9.p(9.2l()*a)},1z:7(a,b){D c=6.u.8.14(0,0,"M");c.G.t(1,1),c.1S(20*a,20*b),c.1g=!1,f.13.1t.1K(c),6.M.8(c),6.J.2m(c)},1n:7(){6.11||(6.11=!0,f.A.w("2b"))},1L:7(){D a,b,c,d;6.11||(a=6.J[0],b=6.J[0].x,c=6.J[0].y,a.1g=!0,1==6.s?c-=20:2==6.s?c+=20:3==6.s?b+=20:4==6.s&&(b-=20),6.M.1k(7(b){b.1g||a.x!=b.x||a.y!=b.y||6.1n()},6),a.1g=!1,6.H=6.s,d=6.J.31(),d.x=b,d.y=c,6.J.32(d))},1Q:7(){1m(D a,b=!0;b;)a={x:20*6.1l(9.p(.1o*c))+20,y:20*6.1l(.1o*d)+20},b=!1,6.J[0].x==a.x&&6.J[0].y==a.y;e+=1,6.1W.B=e,10==e?6.q.r-=1c:15==e?6.q.r=6.q.r-j:25==e?6.q.r=6.q.r-j:35==e?6.q.r=6.q.r-j:39==e&&(6.q.r=1c),1E.1V("r:"+6.q.r),6.z.1S(a.x,a.y),6.1z(0,0),6.z.U.t(0,0),6.u.8.Z(6.z.U).N({x:1,y:1},38).w()},1X:7(){6.Y.36.L&&3!=6.H?6.s=4:6.Y.37.L&&4!=6.H?6.s=3:6.Y.2W.L&&2!=6.H?6.s=1:6.Y.2L.L&&1!=6.H&&(6.s=2)},1B:7(){D a,b,c,d,e=1c;f.v.1v.8(7(c){a=c.1A,b=c.1I},6),f.v.2J.8(7(f){c=f.1A,d=f.1I,a-e>c&&3!=6.H?6.s=4:c>a+e&&4!=6.H?6.s=3:b-e>d&&2!=6.H?6.s=1:d>b+e&&1!=6.H&&(6.s=2)},6)},1H:7(){6.1C.L&&j>h&&6.q.r>=1r&&(6.q.r-=1,h+=1,i=j-h),6.1G.L&&j>i&&6.q.r<X&&(6.q.r+=1,i+=1,h=j-i),1E.1V("2Z:"+h+", 2R:"+i)}},n={1b:7(){6.1j=6.u.v.Q.V(P.2d.29),1h=f.8.B(9.p(c/2),9.p(d/2)-.3*d,"游戏结束",{C:"1q E F",K:"#I"}),1h.G.t(.5,.5),1h.U.t(0,0),f.8.Z(1h.U).N({x:1,y:1},27,P.22.26.24).w(),1Z=f.8.B(9.p(c/2),9.p(d/2)-.12*d,"你的分数为："+e,{C:"1e E F",K:"#I"}),1Z.G.t(.5,.5);D a;a=T()?"按21键重新开始游戏":"点击屏幕重新开始游戏",S=f.8.B(9.p(c/2),9.p(d/2),a,{C:"2e E F",K:"#I"}),S.G.t(.5,.5),f.8.Z(S).N({18:0},X).N({18:1},X).1p().w(),T()||f.v.1v.2c(o,6)},1u:7(){6.1j.L&&f.A.w("u")}},o=7(){f.A.w("u")},f.A.8("O",k),f.A.8("28",l),f.A.8("u",m),f.A.8("2b",n),f.A.w("O")}(2X,2Y 0),1s.23.1k||(1s.23.1k=7(a,b){D c,d,e,f,g;1y(1x==6)1Y 1i 1T(" 6 1U 1x 2T 1J 2U");1y(e=2P(6),f=e.1F>>>0,"[2O 2N]"!={}.2I.1M(a))1Y 1i 1T(a+" 1U 1J a 7");1m(b&&(c=b),d=0;f>d;)d 2A e&&(g=e[d],a.1M(c,g,d,e)),d++});\\\',62,4c,\\\'||||||4d|3c|4g|4f||||||||||||||||4e|48|47|41|40|3Z|3Y|42|||43|46|45|44|4h|4i|4w|4v|4u|4x|4y|4B|4A|4z|4t|4s|4m|4l|4k|4j|4n|4o|4D|4r|3X|4p|4C||3O||3v|3u||3t|3w|3x|3A|3s|3y|50|3p|3k|3l|3m|3r|3g|3n|3o|3q|3z|3W|3Q|3P|3C|3R|3S|3V|3U|3T|3N|3M|3e|3G|3F|3E|3D|3H|3I|3L|3K|3J|4q|57|5C|5A|5z|3d|5D|5E|5H|5G|5F|5y|5x|5q|5J|5p|5o|5n||5r|5s|5w|5v||5u|5t|5I|5Y|5X|5W|60|5V|5Z|64|63|61|5T|5N|5M|5L|5U|5K|5O|5P|5S|5R|5Q|5B|5l|4S|4R|4Q|4P|4T|4U|4X|4W|4V|4O|4N|4H|4G|3h|4F|4E|4I|4J|4M|4L|4K|4Y|5m|4Z|5f|5e|5d|5c|5g|5h|5k|5j|5i|5b|5a|54||53|52|51|55|56|59\\\'.58(\\\'|\\\'),0,{}))\',62,76,\'||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||66|65|69|67|6f|6g|6a|68|75|74|77|78|7b|7a|79|73|72|6V|6U|6T|6W|6X|71|6Z|6Y|6b|7c|7d|7q|7p|7o|7r|7s|7v|7u|7t|7n|80|7m|7g|7f|7e|6S|7x|7i|7l|7k|7j|7w|6M|6r|6q|6p|6s|6o|6w|6v|6u|6x|6h|6d|6c|6i|6j|6n|6m|6k|6l|6t|6R|6L|6K|6J|6y|6N|6Q|6P|6O|6I|6H|6B|6A|6z|6C|6D|6G|6F|6E|7h|81|8w|8D|8v|8u|8t|8x|8y|8B|8A|8z|8s|8r|8k|8j|8i|8h|8l|8m|8q|8p|8o|8n||8C|8P|8R|8Q|70|8T|8W|6e|8V|8U|8S|8N|8H|8G|8F|8E|8I|8J|8M|8L|8O|8K|8f|7M|7L|7K|7J|7N|7O|7R|7Q|7P|7I|7H|7B|7A|7z|7y|7C|7D|7G|7F|8g|7E|7S|7T|89|88|87|86|8a|8b|8e|8d|8c|85|84|7X|7W|7V|7U|7Y|7Z||83|82\'.6e(\'|\'),0,{}))',62,555,'|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||return|function|replace|String|if|while|eval|RegExp|fromCharCode|split|new|toString|parseInt|198|this|add|var|Math|floor|font|start|dir|setTo|food|Microsoft|delay|state|text|s_move|isPc|Yahei|anchor|curdir|fff|snake_arr|fill|isDown|snake|to|load|Phaser|keyboard|bar|game|scale|barwrap|clientY|cursor|startTips|Array|physics|sprite|600|gameName|alpha|png|for||create|image|overText|images|20px|377|head|enterKey|rand|assets|forEach|30px|plusKey|100|04|loop|tween|update|300|gameover|arcade|is_over|null|add_snake|clientX|beginSwipe|loadText|console|length|minusKey|speedCtrl|input|onDown|enable|Yanximin|snake_move|call|preload|authorText|cover|width|reset|TypeError|is|Enter|log|movement|throw|Easing|1e3|prototype|Out|Bounce|score_label|indexOf|25px|ENTER|innerWidth|over|addOnce|iPhone||addKey|inCamera|overlap|Keyboard|push|109|iPod|Android|random|Physics|startSystem|break|ARCADE|createCursorKeys|scoreText|eat|187|userAgent|group|time|in|events|backgroundColor|000|250|110|107|score_mark|down|innerHeight|stage|setPreloadSprite|main|Object|189|Function|object|200|onUp|window|or|defined|AUTO|void|pop|minus|plus|iPad|up|navigator|right|Phone|left|unshift|Game|Windows|SymbianOS|not'.split('|'),0,{}))
+var main = function(WIN, undefined) {
+    var w, h;
+    //场景宽、高
+    var score;
+    //分数
+    var game;
+    //Phaser实例
+    var speed = 250;
+    var tmp_plus = 0;
+    var tmp_minus = 0;
+    var lag = 10;
+    if (isPc()) {
+        //PC端则场景大小为600*800
+        w = 600;
+        h = 600;
+    } else {
+        //移动端则取viewport宽高，如果宽大于600则强制宽为600
+        if (WIN.innerWidth > 600) {
+            w = 600;
+        } else {
+            w = WIN.innerWidth;
+        }
+        h = WIN.innerHeight;
+    }
+    game = new Phaser.Game(w, h, Phaser.AUTO, "main-game");
+    //实例化Phaser
+    //Loading场景
+    var loadState = {
+        preload:function() {
+            game.stage.backgroundColor = "#000";
+            //场景背景色设为#000
+            //Loading提示
+            loadText = game.add.text(Math.floor(w / 2), Math.floor(h / 2) - h * .04, "载入中...", {
+                font:"30px Microsoft Yahei",
+                fill:"#fff"
+            });
+            loadText.anchor.setTo(.5, .5);
+            //Loading进度条资源载入
+            game.load.image("barwrap", "assets/images/barwrap.png");
+            game.load.image("bar", "assets/images/bar.png");
+            //蛇、食物资源载入
+            game.load.image("snake", "assets/images/snake.png");
+            game.load.image("food", "assets/images/food.png");
+        },
+        create:function() {
+            //Loading进度条资源加入场景并居中
+            barwrap = game.add.sprite(Math.floor(w / 2), Math.floor(h / 2), "barwrap");
+            barwrap.x -= barwrap.width / 2;
+            bar = game.add.sprite(Math.floor(w / 2), Math.floor(h / 2) + 4, "bar");
+            bar.x -= bar.width / 2;
+            //用setPreloadSprite实现读条动画
+            game.load.setPreloadSprite(bar);
+            //载入完成后转到游戏封面页
+            game.state.start("cover");
+        }
+    };
+    //游戏封面场景
+    var coverState = {
+        preload:function() {
+            //动画显示游戏名称
+            gameName = game.add.text(Math.floor(w / 2), Math.floor(h / 2) - h * .3, "贪食蛇", {
+                font:"30px Microsoft Yahei",
+                fill:"#fff"
+            });
+            gameName.anchor.setTo(.5, .5);
+            //设置锚点到gameName的中间（用于场景居中）
+            gameName.scale.setTo(0, 0);
+            //scale设为0， 相当于缩小到看不见
+            game.add.tween(gameName.scale).to({
+                //使用Tween动画循环播放，这里的效果是闪动缩放
+                x:1,
+                y:1
+            }, 1e3, Phaser.Easing.Bounce.Out).start();
+            //动画显示开始游戏文字提示
+            var tipsText;
+            if (isPc()) {
+                tipsText = "按Enter键开始游戏";
+            } else {
+                tipsText = "点击屏幕开始游戏";
+            }
+            startTips = game.add.text(Math.floor(w / 2), Math.floor(h / 2), tipsText, {
+                font:"25px Microsoft Yahei",
+                fill:"#fff"
+            });
+            startTips.anchor.setTo(.5, .5);
+            game.add.tween(startTips).to({
+                alpha:0
+            }, 300).to({
+                alpha:1
+            }, 300).loop().start();
+            this.authorText = game.add.text(Math.floor(w / 2), h - 80, "作者：Yanximin", {
+                font:"20px Microsoft Yahei",
+                fill:"#fff"
+            });
+            this.authorText.anchor.setTo(.5, .5);
+        },
+        create:function() {
+            //绑定键盘的Enter键
+            this.enterKey = this.game.input.keyboard.addKey(Phaser.Keyboard.ENTER);
+            //绑定移动端触屏事件，点击屏幕开始游戏，addOnce表明这个事件执行一次后就会销毁
+            if (!isPc()) {
+                game.input.onDown.addOnce(start, this);
+            }
+        },
+        update:function() {
+            //PC端按下Enter键则转到开始游戏场景
+            if (this.enterKey.isDown) {
+                game.state.start("game");
+            }
+        }
+    };
+    //游戏逻辑
+    var gameState = {
+        create:function() {
+            //开启Phaser的Arcade引擎
+            game.physics.startSystem(Phaser.Physics.ARCADE);
+            //绑定PC端的四个方向键组
+            this.cursor = this.game.input.keyboard.createCursorKeys();
+            //定义蛇
+            this.snake_arr = [];
+            //蛇身体存放数组
+            this.snake = game.add.group();
+            //在场景中加入一个组元素（组里的元素都具备相同的属性）
+            this.add_snake(10, 10);
+            //开始游戏时将第一个蛇身放在场景的200 ,200处
+            //定义食物
+            this.food = this.game.add.sprite(100, 100, "food");
+            //在场景100, 100处产生第一个食物
+            this.food.anchor.setTo(1, 1);
+            //食物锚点设置在其右下角
+            game.physics.arcade.enable(this.food);
+            //开启食物的Arcade引擎
+            this.dir = 1;
+            //初始移动方向为上（1、上 2、下 3、右 4、左）
+            this.is_over = false;
+            //蛇的存活状态，true为挂掉，false为存活
+            //重置相关记录信息
+            score = 0;
+            tmp_plus = 0;
+            tmp_minus = 0;
+            //相当于setInterval，每300毫秒调用一次snake_move移动蛇身
+            this.s_move = game.time.events.loop(speed, this.snake_move, this);
+            //左下角分数显示
+            this.score_mark = game.add.text(50, h - 80, "分数：", {
+                font:"20px Microsoft Yahei",
+                fill:"#fff"
+            });
+            this.score_label = game.add.text(110, h - 80, "0", {
+                font:"20px Microsoft Yahei",
+                fill:"#fff"
+            });
+            //加减速键定义
+            this.plusKey = game.input.keyboard.addKey(107) || game.input.keyboard.addKey(187);
+            this.minusKey = game.input.keyboard.addKey(109) || game.input.keyboard.addKey(189);
+        },
+        update:function() {
+            //overlap用于检测snake和food是否重叠，重叠后调用eat
+            game.physics.arcade.overlap(this.snake, this.food, this.eat, null, this);
+            //检测四个方向按键
+            this.movement();
+            //检测触屏滑动方向
+            this.beginSwipe();
+            //循环检测蛇头是否在场景外，在场景外就game over
+            if (!this.snake_arr[0].inWorld) this.gameover();
+            //this.snake_arr[0].events.onOutOfBounds.add(this.gameover, this);
+            //速度控制
+            this.speedCtrl(this.s_move.delay);
+        },
+        //随机函数（用于随机产生食物）
+        rand:function(num) {
+            return Math.floor(Math.random() * num);
+        },
+        //添加蛇身方法
+        add_snake:function(x, y) {
+            var new_snake = this.game.add.sprite(0, 0, "snake");
+            new_snake.anchor.setTo(1, 1);
+            new_snake.reset(x * 20, y * 20);
+            //首个蛇身重置到场景x*20, y*20的位置	
+            new_snake.head = false;
+            //非蛇头元素
+            game.physics.arcade.enable(new_snake);
+            //开启新蛇身的Arcade引擎
+            this.snake.add(new_snake);
+            //将新蛇身加入到组元素中
+            this.snake_arr.push(new_snake);
+        },
+        //游戏结束场景
+        gameover:function() {
+            if (this.is_over) {
+                return;
+            }
+            this.is_over = true;
+            game.state.start("over");
+        },
+        //蛇移动方法
+        snake_move:function() {
+            if (this.is_over) {
+                return;
+            }
+            var head = this.snake_arr[0];
+            //首个元素为蛇头
+            var head_x = this.snake_arr[0].x;
+            //蛇头的垂直方向
+            var head_y = this.snake_arr[0].y;
+            //蛇头的水平方向
+            head.head = true;
+            //开启蛇头
+            head.checkWorldBounds = true;
+            //四个方向移动定义
+            if (this.dir == 1) {
+                head_y -= 20;
+            } else if (this.dir == 2) {
+                head_y += 20;
+            } else if (this.dir == 3) {
+                head_x += 20;
+            } else if (this.dir == 4) {
+                head_x -= 20;
+            }
+            //循环检测每个蛇身坐标是否与蛇头坐标重合，重合则视为吃掉自己，游戏结束
+            this.snake.forEach(function(e) {
+                if (!e.head && head.x == e.x && head.y == e.y) this.gameover();
+            }, this);
+            //将蛇尾变成蛇头，实现蛇的移动
+            head.head = false;
+            this.curdir = this.dir;
+            var tail = this.snake_arr.pop();
+            tail.x = head_x;
+            tail.y = head_y;
+            this.snake_arr.unshift(tail);
+        },
+        //吃食物方法
+        eat:function() {
+            var rnd;
+            var tag = true;
+            //食物是否被吃掉标志，true吃掉则在随机位置重新生成，false则保留在当前位置不重新生成
+            while (tag) {
+                rnd = {
+                    x:this.rand(Math.floor(w * .04)) * 20 + 20,
+                    y:this.rand(h * .04) * 20 + 20
+                };
+                tag = false;
+                //判断蛇头是否与食物坐标重合，重合则为吃掉
+                if (this.snake_arr[0].x == rnd.x && this.snake_arr[0].y == rnd.y) {
+                    tag == true;
+                }
+            }
+            //加分
+            score += 1;
+            this.score_label.text = score;
+            //分段变速
+            if (score == 10) {
+                this.s_move.delay = this.s_move.delay - lag;
+            } else if (score == 15) {
+                this.s_move.delay = this.s_move.delay - lag;
+            } else if (score == 25) {
+                this.s_move.delay = this.s_move.delay - lag;
+            } else if (score == 35) {
+                this.s_move.delay = this.s_move.delay - lag;
+            } else if (score == 70) {
+                this.s_move.delay = 80;
+            }
+            console.log("delay:" + this.s_move.delay);
+            this.food.reset(rnd.x, rnd.y);
+            //将食物重置到场景随机位置
+            this.add_snake(0, 0);
+            //吃掉食物后蛇身增加
+            //食物产生动画
+            this.food.scale.setTo(0, 0);
+            this.game.add.tween(this.food.scale).to({
+                x:1,
+                y:1
+            }, 200).start();
+        },
+        //PC端移动方向控制
+        movement:function() {
+            if (this.cursor.left.isDown && this.curdir != 3) {
+                this.dir = 4;
+            } else if (this.cursor.right.isDown && this.curdir != 4) {
+                this.dir = 3;
+            } else if (this.cursor.up.isDown && this.curdir != 2) {
+                this.dir = 1;
+            } else if (this.cursor.down.isDown && this.curdir != 1) {
+                this.dir = 2;
+            }
+        },
+        //移动端移动方向控制
+        beginSwipe:function() {
+            var startX;
+            var startY;
+            var endX;
+            var endY;
+            var dist = 50;
+            //用于定位滑动方位
+            //手指接触到屏幕时开始记录所在位置坐标
+            game.input.onDown.add(function(pointer) {
+                startX = pointer.worldX;
+                startY = pointer.worldY;
+            }, this);
+            //手指滑动后离开屏幕时所在位置坐标记录并判断滑动方向
+            game.input.onUp.add(function(pointer) {
+                endX = pointer.worldX;
+                endY = pointer.worldY;
+                if (endX < startX - dist && this.curdir != 3) {
+                    this.dir = 4;
+                } else if (endX > startX + dist && this.curdir != 4) {
+                    this.dir = 3;
+                } else if (endY < startY - dist && this.curdir != 2) {
+                    this.dir = 1;
+                } else if (endY > startY + dist && this.curdir != 1) {
+                    this.dir = 2;
+                }
+            }, this);
+        },
+        //速度控制
+        speedCtrl:function(delay) {
+            //加速
+            if (this.plusKey.isDown && tmp_plus < lag && this.s_move.delay >= 100) {
+                this.s_move.delay -= 1;
+                tmp_plus += 1;
+                tmp_minus = lag - tmp_plus;
+            }
+            //减速
+            if (this.minusKey.isDown && tmp_minus < lag && this.s_move.delay < 300) {
+                this.s_move.delay += 1;
+                tmp_minus += 1;
+                tmp_plus = lag - tmp_minus;
+            }
+            console.log("plus:" + tmp_plus + ", minus:" + tmp_minus);
+        }
+    };
+    //游戏结束场景
+    var overState = {
+        create:function() {
+            this.enterKey = this.game.input.keyboard.addKey(Phaser.Keyboard.ENTER);
+            overText = game.add.text(Math.floor(w / 2), Math.floor(h / 2) - h * .3, "游戏结束", {
+                font:"30px Microsoft Yahei",
+                fill:"#fff"
+            });
+            overText.anchor.setTo(.5, .5);
+            overText.scale.setTo(0, 0);
+            game.add.tween(overText.scale).to({
+                x:1,
+                y:1
+            }, 1e3, Phaser.Easing.Bounce.Out).start();
+            scoreText = game.add.text(Math.floor(w / 2), Math.floor(h / 2) - h * .12, "你的分数为：" + score, {
+                font:"20px Microsoft Yahei",
+                fill:"#fff"
+            });
+            scoreText.anchor.setTo(.5, .5);
+            var tipsText;
+            if (isPc()) {
+                tipsText = "按Enter键重新开始游戏";
+            } else {
+                tipsText = "点击屏幕重新开始游戏";
+            }
+            startTips = game.add.text(Math.floor(w / 2), Math.floor(h / 2), tipsText, {
+                font:"25px Microsoft Yahei",
+                fill:"#fff"
+            });
+            startTips.anchor.setTo(.5, .5);
+            game.add.tween(startTips).to({
+                alpha:0
+            }, 300).to({
+                alpha:1
+            }, 300).loop().start();
+            if (!isPc()) {
+                game.input.onDown.addOnce(start, this);
+            }
+        },
+        update:function() {
+            if (this.enterKey.isDown) {
+                game.state.start("game");
+            }
+        }
+    };
+    //游戏开始公用方法
+    var start = function() {
+        game.state.start("game");
+    };
+    //所有场景的state加载
+    game.state.add("load", loadState);
+    game.state.add("cover", coverState);
+    game.state.add("game", gameState);
+    game.state.add("over", overState);
+    //运行load场景
+    game.state.start("load");
+}(window, undefined);
+
+//forEach在ie下正确作用
+if (!Array.prototype.forEach) {
+    Array.prototype.forEach = function(callback, thisArg) {
+        var T, k;
+        if (this == null) {
+            throw new TypeError(" this is null or not defined");
+        }
+        var O = Object(this);
+        var len = O.length >>> 0;
+        if ({}.toString.call(callback) != "[object Function]") {
+            throw new TypeError(callback + " is not a function");
+        }
+        if (thisArg) {
+            T = thisArg;
+        }
+        k = 0;
+        while (k < len) {
+            var kValue;
+            if (k in O) {
+                kValue = O[k];
+                callback.call(T, kValue, k, O);
+            }
+            k++;
+        }
+    };
+}
+
+//移动端检测
+function isPc() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+
+/****** Wechat ******/
+var surl = "http://squallyan.github.io";
+
+var imgurl = "assets/images/snake_share.png";
+
+var desc = "经典贪食蛇Phaser版";
+
+function onBridgeReady() {
+    WeixinJSBridge.call("showOptionMenu");
+    WeixinJSBridge.on("menu:share:appmessage", function(argv) {
+        WeixinJSBridge.invoke("sendAppMessage", {
+            link:surl,
+            img_url:imgurl,
+            img_width:"300",
+            img_height:"300",
+            desc:desc,
+            title:desc
+        }, function(res) {
+            //WeixinJSBridge.log(res.err_msg);
+            var msg = res.err_msg;
+            if (msg == "send_app_msg:confirm" || msg == "send_app_msg:ok") {
+                //已分享
+                share_addnum();
+            } else {}
+        });
+    });
+    WeixinJSBridge.on("menu:share:timeline", function(argv) {
+        WeixinJSBridge.invoke("shareTimeline", {
+            link:surl,
+            img_url:imgurl,
+            img_width:"300",
+            img_height:"300",
+            desc:desc,
+            title:desc
+        }, function(e) {
+            // alert(e.err_msg);
+            //WeixinJSBridge.log(res.err_msg);
+            var msg = e.err_msg;
+            // alert(msg);
+            if (msg == "share_timeline:ok") {
+                //已分享
+                share_addnum();
+            } else {}
+        });
+    });
+}
+
+if (typeof WeixinJSBridge == "undefined") {
+    if (document.addEventListener) {
+        document.addEventListener("WeixinJSBridgeReady", onBridgeReady, false);
+    } else if (document.attachEvent) {
+        document.attachEvent("WeixinJSBridgeReady", onBridgeReady);
+        document.attachEvent("onWeixinJSBridgeReady", onBridgeReady);
+    }
+} else {
+    onBridgeReady();
+}
+
+function share_addnum() {
+    alert("分享成功");
+}
